@@ -19,7 +19,7 @@ h1 {
 }
 
 .ac-wrapper {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -44,9 +44,10 @@ img {
   margin: 0.8rem auto 0.2rem auto;
   opacity: 0;
   transition: all 1s;
+  cursor: pointer;
 }
 
-.ac-input:checked ~ img {
+.ac-input:checked ~ .ac-label img {
   max-height: 100vh;
   opacity: 1;
   transition: all 1s;
@@ -93,52 +94,7 @@ img {
 }
 
 @media (min-width: 1224px) {
-
   .ac-wrapper {
     width: 70%;
-  }
-
-  .ac-label:hover ~ img, img:hover {
-    max-height: 100vh;
-    opacity: 1;
-    transition: all 1s;
-  }
-
-  .ac-wrapper:hover {
-    color:blue;
-  }
-
-  .icon {
-    opacity: 0;
-  }
-
-  .ac-wrapper:hover .icon {
-    opacity: 1;
-  }
-
-  .ac-label:hover > .title {
-    color: black;
-    font-weight: bold;
-    transition: all 0.5s;
-  }
-
-  .ac-label:hover > .title .icon {
-    background-image: url(assets/svg/cross.svg);
-  }
-}
-
-@media (min-width: 1920px) {
-
-  body {
-    font-size: 3em;
-  }
-
-  .ac-wrapper {
-    width: 60%;
-  }
-
-  .icon {
-    width: 3.2rem;
-    height: 3.2rem;
   }
 }

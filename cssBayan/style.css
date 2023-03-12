@@ -113,3 +113,38 @@ img {
     height: 3.2rem;
   }
 }
+
+@media (hover: hover) {
+
+  .ac-label:hover img, img:hover {
+    max-height: 100vh;
+    opacity: 1;
+    transition: all 1s;
+  }
+
+  .ac-wrapper:hover {
+    color:blue;
+  }
+
+  .icon {
+    opacity: 0;
+  }
+
+  .ac-wrapper:hover .icon {
+    opacity: 1;
+  }
+
+  .ac-label:hover > .title {
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s;
+  }
+
+  .ac-label:active > .title {
+    color: blue;
+  }
+
+  .ac-label:hover > .title .icon {
+    background-image: url(assets/svg/cross.svg);
+  }
+}

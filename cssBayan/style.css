@@ -98,3 +98,18 @@ img {
     width: 70%;
   }
 }
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 3em;
+  }
+
+  .ac-wrapper {
+    width: 60%;
+  }
+
+  .icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}

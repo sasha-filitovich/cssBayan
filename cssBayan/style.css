@@ -9,18 +9,16 @@
  }
 
  body {
-  margin: 0;
   background-color:rgb(250, 249, 237);
 }
 
-h1 {
-  text-align: center;
-  margin: 0;
-}
-
-.ac-wrapper {
+.bayan {
   width: 95%;
   margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
 }
 
 .ac-container {
@@ -78,12 +76,12 @@ img {
   transition: all 0.5s;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 768px) {
   body {
     font-size: 1.5em;
   }
 
-  .ac-wrapper {
+  .bayan {
     width: 90%;
   }
 
@@ -94,17 +92,18 @@ img {
 }
 
 @media (min-width: 1224px) {
-  .ac-wrapper {
+  .bayan {
     width: 70%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 1920px) {
-  body {
+  body {  
     font-size: 3em;
   }
 
-  .ac-wrapper {
+  .bayan {
     width: 60%;
   }
 
